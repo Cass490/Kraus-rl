@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "description": "Two historical random-unitary seed groups, retained as reproducible experiments.",
+  "seed_groups": [2026, 7],
+  "sizes": [2, 3, 4, 5],
+  "samples_per_size": 2,
+  "target_seed_rule": "group_seed + 1000 * num_qubits + sample_index",
+  "reference_rotation_weight": 44,
+  "reference_costs": {"2": 660, "3": 3168, "4": 13728, "5": 57024},
+  "reference_cost_note": "Fixed historical benchmark costs; these do not represent a best-known compiler at matched accuracy."
+}

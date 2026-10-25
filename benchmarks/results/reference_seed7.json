@@ -1,0 +1,56 @@
+{
+  "provenance": "Historical measurements from the predecessor implementation; not a new run of this modular distribution.",
+  "implementation_commit": "d6656b585afc92d0da9960db503624760adf8a6b",
+  "seed_group": 7,
+  "samples_per_size": 2,
+  "sizes": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "settings": {
+    "per_word_epsilon": 1e-09,
+    "factorization": "phase11",
+    "fold_common": true,
+    "rotation_weight": 44
+  },
+  "mean_weighted_cost": [
+    315,
+    1425,
+    5869.5,
+    18048
+  ],
+  "reference_cost": [
+    660,
+    3168,
+    13728,
+    57024
+  ],
+  "displayed_saving_percent": [
+    52.2,
+    55.0,
+    57.2,
+    68.3
+  ],
+  "max_entrywise_error_reported": "5.4e-09",
+  "auxiliary_wires": 0,
+  "case_elapsed_seconds": 1543,
+  "total_experiment_elapsed_seconds": null,
+  "last_five_qubit_sample": {
+    "qubits": 5,
+    "gates_before": 95124,
+    "gates_after": 66326,
+    "global_phase_counted_as_gate": true,
+    "T_after": 17388,
+    "cleanup_seconds": 5.3
+  },
+  "notes": [
+    "Costs are two-sample means; final-sample gate counts are not mean gate counts.",
+    "The maximum entrywise error is rounded and applies across sizes in this seed group.",
+    "The reference costs use the historical weighted metric, not a best-known compiler at matched accuracy.",
+    "The five-qubit circuits retain 15 arbitrary RZ rotations.",
+    "The complete final report for seed group 2026 and raw terminal logs were not preserved.",
+    "End-to-end native synthesis has not been rerun for the modular package."
+  ]
+}

@@ -1,0 +1,20 @@
+# Private notes and generated outputs
+/RESEARCH_LOG.md
+/paper/
+/.cache/
+/.run_cache/
+/.venv/
+/venv/
+/qenv/
+/cyclosynth/
+/build/
+/dist/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.whl
+*.so
+.pytest_cache/
+.env
+.env.*
+*.log
